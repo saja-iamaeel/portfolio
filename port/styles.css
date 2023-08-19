@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css2?family=Alegreya+SC&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Forum&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=PT+Serif&display=swap);
+html {
+    --xColor: rgb(7, 124, 156);
+    --font_main-nav: 'Alegreya SC',serif;
+    --font-main-logo: 'Great Vibes',cursive;
+    --font-family-p: 'Forum',cursive;
+    --font-hh2: 'PT Serif',serif;
+}
+
+h2 {
+  font-family: var(--font-hh2);
+}
+p {
+  font-family: var(--font-family-p);
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    display: block;
+
+  }
+  
+  header {
+    text-align: center;
+    padding: 50px 0;
+    background-color:rgb(200 219 241 / 60%);
+    color: rgb(7, 124, 156);
+  }
+
+  
+  .about, .contact, .why-apply {
+    padding: 20px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .about h2, .contact h2, .why-apply h2 {
+    border-bottom: 2px solid rgb(7, 124, 156);
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+ 
+
+   * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.footer {
+  background-color: rgb(200 219 241 / 60%);
+  text-align: center;
+  padding: 40px;
+}
+.contacts-items .fa-facebook {
+
+
+  color: #1877f2;
+}
+
+.contacts-items .fa-linkedin {
+color: #006097;
+}
+.contacts-items .fa-whatsapp-square {
+color: #31c53b;
+}
+.contacts-items .fa-envelope {
+color: #a50b22;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.list-items {
+  display: inline-block;
+}
+.contact.line2,
+.line2,
+.skills.line2 {
+  margin: 20px auto 40px;
+}
+
+.contacts-items {
+  overflow: auto;
+  width: 50%;
+  margin: 20px auto 40px;
+}
+.contact-h2 {
+  
+  text-transform: capitalize;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+
+.contact {
+  padding-bottom: 50px;
+  margin: auto;
+  text-align: center;
+  overflow: auto;
+}
+.contacts-items {
+ overflow: auto;
+  width: 50%;
+ 
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+h2 {
+  font-family: var(--font-hh2);
+}
+h1{
+  font-family: var(--font_main-nav);
+}
+.contacts-items i {
+  font-size: 50px;
+  margin-bottom: 15px;
+}
+.contacts-items {
+  overflow: auto;
+  width: 50%;
+  margin: 20px auto 5px;
+}
+.contacts-item {
+  margin: 0 10px; 
+}
+
